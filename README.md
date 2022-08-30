@@ -2,6 +2,8 @@
 
 This is my dynamic website continuously deployed with netlify. It promotes what I do and directs clients to where they can find me. 
 
+https://ryan-pilar.netlify.app/ 
+
 💪 Tech Deployed
 
 node-react-bootstrap-emailjs
