@@ -62,7 +62,7 @@ class SkillTwo extends Component {
                                   <a class="d-flex align-items-center list-group-item list-group-item-action">
                                     
                                     <button className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      New websites & web applications
+                                      BuildingnNew websites & web applications
                                   </a>
                                   <a class="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <button className='btn btn-outline-info p-2 ml-3 mr-4' />
