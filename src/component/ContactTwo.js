@@ -29,17 +29,18 @@ class ContactTwo extends Component {
                   btitle="Call, E-mail or Message"
                 />
                 {/* Media Item */}
-                <div className="media get_item">
+
+                {/* <div className="media get_item">
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
 
-                    {/* <h6>Call Me Now</h6>
+                    <h6>Call Me Now</h6>
                     <a href="tel:+102934567845">
                     <span className="contact-media-items">02934567845</span>
-                      </a> */}
+                      </a>
 
                   </div>
-                </div>
+                </div> */}
 
                 {/* Media Item */}
                 <div className="media get_item">
