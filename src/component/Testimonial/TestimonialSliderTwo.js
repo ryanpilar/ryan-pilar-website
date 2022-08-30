@@ -32,7 +32,8 @@ import { Link } from "react-scroll";
                 
                 <div className="item">
                     <p>
-                        People know me for my great instincts, entrepreneurial mindset and my ability to balance best practices with productivity while staying within budgets.
+                        People know me for my great instincts, entrepreneurial mindset and my ability to balance 
+                        best practices with productivity while staying within budgets.
                     </p>
 
                     <Reveal effect="fadeInUp" duration={900}>

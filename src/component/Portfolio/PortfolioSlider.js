@@ -133,6 +133,7 @@ class PortfolioSlider extends Component {
                                             <button 
                                                 type="button" 
                                                 className="btn btn-outline-secondary m-1"
+                                                disabled
                                                 >
                                                 Live Site
                                             </button> 
@@ -179,6 +180,7 @@ class PortfolioSlider extends Component {
                                             <button 
                                                 type="button" 
                                                 className="btn btn-outline-secondary m-1"
+                                                disabled
                                                 >
                                                 Live Site
                                             </button> 
@@ -385,6 +387,7 @@ class PortfolioSlider extends Component {
                                         <button 
                                             type="button" 
                                             className="btn btn-primary" 
+                                            disabled
                                             >
                                             Live Site
                                         </button>
@@ -485,6 +488,7 @@ class PortfolioSlider extends Component {
                                         <button 
                                             type="button" 
                                             className="btn btn-primary" 
+                                            disabled
                                             >
                                             Live Site
                                         </button>

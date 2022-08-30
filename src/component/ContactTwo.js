@@ -33,10 +33,10 @@ class ContactTwo extends Component {
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
 
-                    <h6>Call Me Now</h6>
+                    {/* <h6>Call Me Now</h6>
                     <a href="tel:+102934567845">
                     <span className="contact-media-items">02934567845</span>
-                      </a>
+                      </a> */}
 
                   </div>
                 </div>

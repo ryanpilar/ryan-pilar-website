@@ -9,12 +9,13 @@ class FooterTwo extends Component {
         <div className="container">
           <div className="row footer-content">
             <div className="col-sm-4">
+              
               <Fade top cascade>
                 <ul className="list_style">
                   {jhonData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} >
+                        <a href={item.url} target="_blank">
                           <i className={item.className}></i>
                         </a>
                       </li>

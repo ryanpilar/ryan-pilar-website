@@ -23,7 +23,7 @@ const jhonData = {
 
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/ryan-pilarczyk-87165b20a/",
+      url: "https://www.linkedin.com/in/ryanpilar/",
       className: "social_linkedin",
     },
 
