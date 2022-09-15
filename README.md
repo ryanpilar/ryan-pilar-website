@@ -4,14 +4,14 @@ This is my dynamic website continuously deployed with netlify. It promotes what 
 
 https://ryan-pilar.netlify.app/ 
 
-# 💪 Tech Deployed
+## 💪 Tech Deployed
 
 node-react-bootstrap-emailjs
 
-# 📸 Sample Wireframe:
+## 📸 Sample Wireframe:
 
 
 ![image](https://user-images.githubusercontent.com/102194829/187531109-5650ad9b-114a-4b7b-a451-da65687b3032.png)
 
-# 🔨 Improvements:
+## 🔨 Improvements:
 Maybe a Gatsby version one day
