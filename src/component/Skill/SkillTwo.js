@@ -58,28 +58,28 @@ class SkillTwo extends Component {
                                 </p>
 
                                 <div class="list-group">
-                                <i className="bi bi-shield-check"></i>
+                                  <i className="bi bi-shield-check"></i>
                                   <a class="d-flex align-items-center list-group-item list-group-item-action">
                                     
-                                    <button className='btn btn-outline-info p-2 ml-3 mr-4' />
+                                    <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Building out new websites & web applications
                                   </a>
                                   <a class="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
-                                    <button className='btn btn-outline-info p-2 ml-3 mr-4' />
+                                    <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Modernizing outdated websites
                                   </a>
 
                                   <a class="d-flex align-items-center list-group-item list-group-item-action">
-                                    <button className='btn btn-outline-info p-2 ml-3 mr-4' />
+                                    <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Webhooks & web integrations
                                   </a>
                                   <a class="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
-                                    <button className='btn btn-outline-info p-2 ml-3 mr-4' />
+                                    <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Business automations
                                   </a>
 
                                   <a class="d-flex align-items-center list-group-item list-group-item-action">
-                                    <button className='btn btn-outline-info p-2 ml-3 mr-4' />
+                                    <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Accessibility best practices
                                   </a>
                                 </div>

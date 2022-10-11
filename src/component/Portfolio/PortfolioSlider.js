@@ -87,6 +87,7 @@ class PortfolioSlider extends Component {
                                             <button 
                                                 type="button" 
                                                 className="btn btn-outline-secondary m-1"
+                                                disabled
                                                 >
                                                 See Git
                                             </button> 
@@ -268,7 +269,7 @@ class PortfolioSlider extends Component {
 
                                         <h6 className="card-title text-info special">Tech Stack Used</h6> 
                                         <p className="card-text small-small"> 
-                                            CSS | HTML | Gatsby/React | Node | Express | MongoDB | Mongoose | Passport
+                                            Handlebars | Node | Express | MongoDB | Ouath2.0
                                         </p>
 
                                         <h6 className="card-title text-info special">Other Tech Used</h6> 
@@ -281,10 +282,10 @@ class PortfolioSlider extends Component {
                                             </Link>{' | '}
                                             <Link to={{pathname: 'https://pdf-lib.js.org'}} target={"_blank"}>  
                                             PDFLib
-                                            </Link>{' | '}
-                                            <Link to={{pathname: 'https://www.papaparse.com'}} target={"_blank"}>  
+                                            </Link>{''}
+                                            {/* <Link to={{pathname: 'https://www.papaparse.com'}} target={"_blank"}>  
                                             PapaParse 
-                                            </Link>{' | '}
+                                            </Link>{' | '} */}
 
 
                                         </p>
@@ -297,6 +298,7 @@ class PortfolioSlider extends Component {
                                         <button 
                                             type="button" 
                                             className="btn btn-info" 
+                                            disabled
                                             >
                                             See GIT
                                         </button>
@@ -367,7 +369,7 @@ class PortfolioSlider extends Component {
 
                                         <h6 className="card-title text-info special">Tech Stack Used</h6> 
                                         <p className="card-text small-small"> 
-                                            CSS | HTML | Gatsby/React | Node 
+                                            CSS | HTML | Gatsby/React | Node | GraphQL
                                         </p>
 
                                         <h6 className="card-title text-info special">Other Tech Used</h6> 
@@ -392,7 +394,7 @@ class PortfolioSlider extends Component {
                                             Live Site
                                         </button>
                                     </Link>
-                                    <Link to={{pathname: 'https://github.com/ryanpilar/'}} target={"_blank"}>  
+                                    <Link to={{pathname: 'https://github.com/ryanpilar/marilyns-windows'}} target={"_blank"}>  
                                         <button 
                                             type="button" 
                                             className="btn btn-info" 
@@ -500,6 +502,7 @@ class PortfolioSlider extends Component {
                                         <button 
                                             type="button" 
                                             className="btn btn-info" 
+                                            disabled
                                             >
                                             See GIT
                                         </button>
