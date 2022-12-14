@@ -191,7 +191,7 @@ class PortfolioSlider extends Component {
                           type="link"
                           className="btn btn-outline-secondary m-1"
 
-                          // disabled
+                          disabled
                         >
                           Live Site
                         </button>
@@ -392,17 +392,16 @@ class PortfolioSlider extends Component {
                   </p>
                   <p className="card-text">
                     A new modern website was built alongside web integrations to
-                    help manage blogging content and a social media presence.
-                    Her most current Instagram content is now reflected on the
-                    website and an easy-to-use Blog now enables content creators
-                    to post without needing a technical background.
+                    help manage blogging content and a social media presence. An
+                    easy-to-use Blog now enables content creators to post
+                    without needing a technical background.
                   </p>
 
                   <h6 className="card-title text-info special">
                     Tech Stack Used
                   </h6>
                   <p className="card-text small-small">
-                    CSS | HTML | Gatsby/React | Node | GraphQL
+                    Node | React | Contentful | Bootstrap
                   </p>
 
                   <h6 className="card-title text-info special">
@@ -410,29 +409,28 @@ class PortfolioSlider extends Component {
                   </h6>
                   <p className="card-text small-small">
                     <Link
-                      to={{ pathname: "https://www.netlifycms.org/" }}
+                      to={{ pathname: "https://www.contentful.com/developers/docs/references/content-delivery-api/" }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
-                      Netlify Headless CMS
+                      Content Delivery API
                     </Link>
                     {" | "}
                     <Link
                       to={{
-                        pathname:
-                          "https://developers.facebook.com/docs/instagram-api/ ",
+                        pathname: "https://getbootstrap.com/docs/5.2/getting-started/introduction/ ",
                       }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
-                      Instagram API
+                      Bootstrap Docs
                     </Link>
                   </p>
                 </div>
               </div>
               <div className="modal-footer">
                 <Link
-                  to={{ pathname: "https://www.marilynswindows.com/" }}
+                  to={{ pathname: "https://marilyns-windows.netlify.app/" }}
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
@@ -442,7 +440,7 @@ class PortfolioSlider extends Component {
                 </Link>
                 <Link
                   to={{
-                    pathname: "https://github.com/ryanpilar/marilyns-windows",
+                    pathname: "https://github.com/ryanpilar/marilyns-windows-2",
                   }}
                   target={"_blank"}
                   rel="noopener noreferrer"
@@ -527,21 +525,15 @@ class PortfolioSlider extends Component {
                   </h6>
                   <p className="card-text small-small">
                     <Link
-                      to={{ pathname: "https://www.contentful.com/" }}
+                      to={{ pathname: "https://www.contentful.com/developers/docs/references/content-delivery-api/" }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
-                      Contentful Headless CMS
+                      Content Delivery API
                     </Link>
                     {" | "}
-                    <Link
-                      to={{ pathname: "https://cloudinary.com/" }}
-                      target={"_blank"}
-                      rel="noopener noreferrer"
-                    >
-                      Cloudinary
-                    </Link>
-                    {" | "}
+                    
+                  
                     <Link
                       to={{ pathname: "https://www.patreon.com/ " }}
                       target={"_blank"}
@@ -570,7 +562,7 @@ class PortfolioSlider extends Component {
                   <button
                     type="button"
                     className="btn btn-primary"
-                    // disabled
+                    disabled
                   >
                     Live Site
                   </button>
