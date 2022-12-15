@@ -182,20 +182,19 @@ class PortfolioSlider extends Component {
                     </div>
 
                     <div className="d-flex justify-content-center">
-                      <a
-                        href="https://the-presidents-coach.netlify.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <button
-                          type="link"
+                    <Link
+                      to={{ pathname: "https://the-presidents-coach.netlify.app/" }}
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      <button
+                          type="button"
                           className="btn btn-outline-secondary m-1"
-
                           disabled
                         >
                           Live Site
                         </button>
-                      </a>
+                    </Link>
 
                       <button
                         type="button"
