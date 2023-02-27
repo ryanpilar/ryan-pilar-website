@@ -112,7 +112,7 @@ class PortfolioSlider extends Component {
                 <div className="portfolio_content">
                   <a>
                     <img
-                      src={require("../../image/marilyn-logo.png")}
+                      src={require("../../image/mw-logo-570.png")}
                       alt="a screenshot of Marilyn's website"
                     />
                   </a>
@@ -130,18 +130,31 @@ class PortfolioSlider extends Component {
                       </p>
                       <p className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
-                        social media integration
+                        custom content / SEO
                       </p>
                     </div>
 
                     <div className="d-flex justify-content-center">
-                      <button
+                      <Link
+                        to={{ pathname: "https://marilynswindows.com/" }}
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="btn btn-outline-secondary m-1"
+                        >
+                          Live Site
+                        </button>
+                      </Link>
+
+                      {/* <button
                         type="button"
                         className="btn btn-outline-secondary m-1"
                         disabled
                       >
                         Live Site
-                      </button>
+                      </button> */}
                       <button
                         type="button"
                         className="btn btn-outline-info m-1"
@@ -182,19 +195,21 @@ class PortfolioSlider extends Component {
                     </div>
 
                     <div className="d-flex justify-content-center">
-                    <Link
-                      to={{ pathname: "https://the-presidents-coach.netlify.app/" }}
-                      target={"_blank"}
-                      rel="noopener noreferrer"
-                    >
-                      <button
+                      <Link
+                        to={{
+                          pathname: "https://the-presidents-coach.netlify.app/",
+                        }}
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                      >
+                        <button
                           type="button"
                           className="btn btn-outline-secondary m-1"
                           disabled
                         >
                           Live Site
                         </button>
-                    </Link>
+                      </Link>
 
                       <button
                         type="button"
@@ -367,11 +382,15 @@ class PortfolioSlider extends Component {
               </div>
 
               <div className="card">
-                <img
-                  src={require("../../image/marilyn-face.png")}
-                  className="card-img-top p-3"
-                  alt="Marilyns Windows Company Logo"
-                />
+
+              <div style={{margin: '5% 30% 0 30%'}}>
+                  <img
+                    src={require("../../image/marilyns-windows-logo.png")}
+                    className="card-img-top p-4"
+                    alt="Marilyns Windows Company Logo"
+                  />
+                </div>
+
                 <div className="card-body">
                   <h5 className="card-title text-dark">Company Info</h5>
                   <p className="card-text">
@@ -389,11 +408,28 @@ class PortfolioSlider extends Component {
                     to update her website to be more in line with current
                     designs and trends.
                   </p>
+                  {/* <div className="portfolio-modal-thumb "> */}
+                    <img
+                      src={require("../../image/marilyns-website-screenshot.png")}
+                      className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
+                      alt="Screenshot of marilynswindows.com landing page"
+                    />
+                  {/* </div> */}
                   <p className="card-text">
                     A new modern website was built alongside web integrations to
                     help manage blogging content and a social media presence. An
                     easy-to-use Blog now enables content creators to post
                     without needing a technical background.
+                  </p>
+                  <h5 className="card-title text-dark">
+                    Custom Content | SEO | Google Business
+                  </h5>
+                  <p className="card-text">
+                    Custom content throughout, including photography and SEO
+                    driven stories keeping multiple customer journeys in mind.
+                    Marylyn’s Google Business was given a facelift, and
+                    Search Console & Analytics was setup to measure traffic and Google Ad
+                    conversions.
                   </p>
 
                   <h6 className="card-title text-info special">
@@ -408,7 +444,10 @@ class PortfolioSlider extends Component {
                   </h6>
                   <p className="card-text small-small">
                     <Link
-                      to={{ pathname: "https://www.contentful.com/developers/docs/references/content-delivery-api/" }}
+                      to={{
+                        pathname:
+                          "https://www.contentful.com/developers/docs/references/content-delivery-api/",
+                      }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
@@ -417,23 +456,34 @@ class PortfolioSlider extends Component {
                     {" | "}
                     <Link
                       to={{
-                        pathname: "https://getbootstrap.com/docs/5.2/getting-started/introduction/ ",
+                        pathname:
+                          "https://getbootstrap.com/docs/5.2/getting-started/introduction/ ",
                       }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
                       Bootstrap Docs
                     </Link>
+                    {" | "}
+                    <Link
+                      to={{
+                        pathname: "https://cloudinary.com/",
+                      }}
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      Cloudinary
+                    </Link>
                   </p>
                 </div>
               </div>
               <div className="modal-footer">
                 <Link
-                  to={{ pathname: "https://marilyns-windows.netlify.app/" }}
+                  to={{ pathname: "https://marilynswindows.com/" }}
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button type="button" className="btn btn-primary" disabled>
+                  <button type="button" className="btn btn-primary">
                     Live Site
                   </button>
                 </Link>
@@ -524,15 +574,17 @@ class PortfolioSlider extends Component {
                   </h6>
                   <p className="card-text small-small">
                     <Link
-                      to={{ pathname: "https://www.contentful.com/developers/docs/references/content-delivery-api/" }}
+                      to={{
+                        pathname:
+                          "https://www.contentful.com/developers/docs/references/content-delivery-api/",
+                      }}
                       target={"_blank"}
                       rel="noopener noreferrer"
                     >
                       Content Delivery API
                     </Link>
                     {" | "}
-                    
-                  
+
                     <Link
                       to={{ pathname: "https://www.patreon.com/ " }}
                       target={"_blank"}
@@ -558,11 +610,7 @@ class PortfolioSlider extends Component {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    disabled
-                  >
+                  <button type="button" className="btn btn-primary" disabled>
                     Live Site
                   </button>
                 </Link>
