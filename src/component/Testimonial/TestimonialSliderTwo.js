@@ -52,7 +52,7 @@ import { Link } from "react-scroll";
                     {/* twitter component */}
                     <div className='d-flex flex-direction-row justify-content-center align-items-center pr-5'>
                         <div className="media">
-                            <a href="https://twitter.com/_ryanpilar_/" target="_blank">
+                            <a href="https://twitter.com/_ryanpilar_/" target="_blank" rel="noopener noreferrer">
                                 <div className="author_img">
                                     
                                         <img src={require('../../image/ryan-twitter.png')} alt="Ryan Twitter Profile Pic"/>
@@ -67,11 +67,11 @@ import { Link } from "react-scroll";
                             </a>
 
                         </div>
-                        <a href="https://twitter.com/_ryanpilar_/" target="_blank">
+                        <a href="https://twitter.com/_ryanpilar_/" target="_blank" rel="noopener noreferrer">
                         <div className="d-flex align-items-center theme_btn ml-4 p-0 pl-4 pr-4">
                             
                                 Follow Me
-                                <a className="social_twitter pl-2" />
+                                <i className="social_twitter pl-2" />
                         </div>
                         </a>
                     </div>

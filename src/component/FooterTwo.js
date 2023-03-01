@@ -15,7 +15,7 @@ class FooterTwo extends Component {
                   {jhonData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
                           <i className={item.className}></i>
                         </a>
                       </li>

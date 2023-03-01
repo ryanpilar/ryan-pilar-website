@@ -73,21 +73,21 @@ class PortfolioSlider extends Component {
                     <div className="d-flex flex-column justify-content-center">
                       <h4 className="pl-4">ACMG</h4>
 
-                      <p className="m-0 pl-5">
+                      <div className="m-0 pt-2 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         web app / business
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         task automation
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         business integration
-                      </p>
+                      </div>
                     </div>
 
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mt-3">
                       <button
                         type="button"
                         className="btn btn-outline-secondary m-1"
@@ -120,21 +120,21 @@ class PortfolioSlider extends Component {
                     <div className="d-flex flex-column justify-content-center">
                       <h4 className="pl-4">Marilyn's Windows</h4>
 
-                      <p className="m-0 pl-5">
+                      <div className="m-0 pl-5 pt-2">
                         <div className="btn btn-info p-1 mr-3" />
                         website / interior design
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         easy to use blog
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         custom content / SEO
-                      </p>
+                      </div>
                     </div>
 
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mt-3">
                       <Link
                         to={{ pathname: "https://marilynswindows.com/" }}
                         target={"_blank"}
@@ -180,21 +180,21 @@ class PortfolioSlider extends Component {
                     <div className="d-flex flex-column justify-content-center">
                       <h4 className="pl-4">The President's Coach</h4>
 
-                      <p className="m-0 pl-5">
+                      <div className="m-0 pl-5 pt-2">
                         <div className="btn btn-info p-1 mr-3" />
                         new website / professional
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         instagram integration
-                      </p>
-                      <p className="m-0 pl-5">
+                      </div>
+                      <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
                         forms / data collection
-                      </p>
+                      </div>
                     </div>
 
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mt-3">
                       <Link
                         to={{
                           pathname: "https://the-presidents-coach.netlify.app/",
@@ -231,10 +231,10 @@ class PortfolioSlider extends Component {
         <div
           className="modal fade"
           id="acmgModelCenter"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="acmgModelCenterTitle"
-          aria-hidden="true"
+          aria-hidden=""
         >
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
@@ -360,10 +360,10 @@ class PortfolioSlider extends Component {
         <div
           className="modal fade"
           id="marilynModelCenter"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="marilynModelCenterTitle"
-          aria-hidden="true"
+          aria-hidden=""
         >
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
@@ -514,10 +514,10 @@ class PortfolioSlider extends Component {
         <div
           className="modal fade"
           id="presidentModelCenter"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="presidentModelCenterTitle"
-          aria-hidden="true"
+          aria-hidden=""
         >
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">

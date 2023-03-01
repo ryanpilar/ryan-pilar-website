@@ -49,7 +49,7 @@ class frelencerBanner extends Component {
                       <Fade top cascade>
                         <ul className="list-inline pt-2 pl-0 mb-0">
                           
-                          <li class="list-inline-item p-1">
+                          <li className="list-inline-item p-1">
                             <Link
                               className="icon_mail_alt"
                               activeClass="active"
@@ -64,16 +64,16 @@ class frelencerBanner extends Component {
 
                           {jhonData.socialLinks.map((item) => {
                             return (
-                              <li class="list-inline-item p-1" key={item.name}>
-                                <a href={item.url} target="_blank">
+                              <li className="list-inline-item p-1" key={item.name}>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer">
                                   <i className={item.className}></i>
                                 </a>
                               </li>
                             );
                           })}
 
-                          <li class="list-inline-item p-1">
-                            <a href='https://github.com/ryanpilar/' target="_blank" >
+                          <li className="list-inline-item p-1">
+                            <a href='https://github.com/ryanpilar/' target="_blank" rel="noopener noreferrer">
                               GIT
                             </a>
                           </li>

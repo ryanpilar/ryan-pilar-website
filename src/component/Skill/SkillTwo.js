@@ -57,30 +57,30 @@ class SkillTwo extends Component {
                                   These are some of the areas I like creating:
                                 </p>
 
-                                <div class="list-group">
+                                <div className="list-group">
                                   <i className="bi bi-shield-check"></i>
-                                  <a class="d-flex align-items-center list-group-item list-group-item-action">
+                                  <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Building out new websites & web applications
+                                      Beautiful websites & web applications
                                   </a>
-                                  <a class="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
+                                  <a className="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Modernizing outdated websites
                                   </a>
 
-                                  <a class="d-flex align-items-center list-group-item list-group-item-action">
+                                  <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Webhooks & web integrations
+                                      Automating businesses with web integrations
                                   </a>
-                                  <a class="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
+                                  <a className="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Business automations
+                                      Consulting on SEO, Customer Journey’s & Content Creation
                                   </a>
 
-                                  <a class="d-flex align-items-center list-group-item list-group-item-action">
+                                  <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Accessibility best practices
+                                      Building responsive products for phones, tablets and large displays
                                   </a>
                                 </div>
 
