@@ -646,15 +646,7 @@ class PortfolioSlider extends Component {
               </div>
 
               <div className="modal-footer">
-                {/* <Link
-                  to={{ pathname: "https://the-presidents-coach.netlify.app/" }}
-                  target={"_blank"}
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-primary" disabled>
-                    Live Site
-                  </button>
-                </Link> */}
+                {/* git  */}
                 <Link
                   to={{
                     pathname:
