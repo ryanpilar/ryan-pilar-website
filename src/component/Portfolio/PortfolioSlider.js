@@ -65,7 +65,7 @@ class PortfolioSlider extends Component {
                 <div className="portfolio_content">
                   <a>
                     <img
-                      src={require("../../image/acmg-cert-form.png")}
+                      src={require("../../image/acmg-login.png")}
                       alt="a screenshot of the ACMG dashboard"
                     />
                   </a>
@@ -88,13 +88,21 @@ class PortfolioSlider extends Component {
                     </div>
 
                     <div className="d-flex justify-content-center mt-3">
-                      <button
-                        type="button"
-                        className="btn btn-outline-secondary m-1"
-                        disabled
+                      <Link
+                        to={{
+                          pathname: "https://acmg-coursebooks.onrender.com/",
+                        }}
+                        target={"_blank"}
+                        rel="noopener noreferrer"
                       >
-                        See Git
-                      </button>
+                        <button
+                          type="button"
+                          className="btn btn-outline-secondary m-1"
+                        >
+                          Live Demo
+                        </button>
+                      </Link>
+
                       <button
                         type="button"
                         className="btn btn-outline-info m-1"
@@ -122,7 +130,7 @@ class PortfolioSlider extends Component {
 
                       <div className="m-0 pl-5 pt-2">
                         <div className="btn btn-info p-1 mr-3" />
-                        website / interior design
+                        new website / design
                       </div>
                       <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
@@ -148,13 +156,6 @@ class PortfolioSlider extends Component {
                         </button>
                       </Link>
 
-                      {/* <button
-                        type="button"
-                        className="btn btn-outline-secondary m-1"
-                        disabled
-                      >
-                        Live Site
-                      </button> */}
                       <button
                         type="button"
                         className="btn btn-outline-info m-1"
@@ -186,18 +187,20 @@ class PortfolioSlider extends Component {
                       </div>
                       <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
-                        instagram integration
+                        forms / data collection
                       </div>
                       <div className="m-0 pl-5">
                         <div className="btn btn-info p-1 mr-3" />
-                        forms / data collection
+                        contentful blog
                       </div>
                     </div>
 
                     <div className="d-flex justify-content-center mt-3">
+
+                    
                       <Link
                         to={{
-                          pathname: "https://the-presidents-coach.netlify.app/",
+                          pathname: "https://github.com/ryanpilar/the-presidents-coach",
                         }}
                         target={"_blank"}
                         rel="noopener noreferrer"
@@ -205,9 +208,9 @@ class PortfolioSlider extends Component {
                         <button
                           type="button"
                           className="btn btn-outline-secondary m-1"
-                          disabled
+                          // disabled
                         >
-                          Live Site
+                          See Git
                         </button>
                       </Link>
 
@@ -267,7 +270,7 @@ class PortfolioSlider extends Component {
                     Canada. They do this by coordinating internationally
                     recognized training/certification programs.
                   </p>
-                  <div className="text-right small-small">
+                  {/* <div className="text-right small-small">
                     <Link
                       to={{ pathname: "https://www.acmg.ca" }}
                       target={"_blank"}
@@ -275,16 +278,39 @@ class PortfolioSlider extends Component {
                     >
                       ACMG's Official Website
                     </Link>
-                  </div>
+                  </div> */}
 
                   <h5 className="card-title text-dark">Task Automation</h5>
                   <p className="card-text">
-                    This web app frees up precious time in the TAP team’s
-                    workflow by automating repetitive administrative tasks.
-                    Accessed via the web, users are first prompted by a secure
-                    sign-in, which then gives access to an easy-to-use dashboard
-                    that controls custom automation tools.
+                    Excel is often a popular choice for teams to manage their
+                    workflows. However, as things evolve over time, Excel
+                    sheets can become unwieldy, complicated, overly manual and
+                    struggle to serve as the single source of truth that it was
+                    first implemented to address.
                   </p>
+
+                  <img
+                    src={require("../../image/acmg-master-scheduler-edit-course.png")}
+                    className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
+                    alt="Screenshot of marilynswindows.com landing page"
+                  />
+                  <p className="card-text">
+                    This web app replaces TAP's Excel sheet, and frees up
+                    precious time in their workflow by automating repetitive
+                    administrative tasks. Accessed via the web, users are first
+                    prompted by a secure sign-in, which then gives access to an
+                    easy-to-use dashboard that controls custom automation tools.
+                  </p>
+                  <img
+                    src={require("../../image/acmg-the-archive.png")}
+                    className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
+                    alt="Screenshot of marilynswindows.com landing page"
+                  />
+                  {/* <img
+                      src={require("../../image/acmg-cert-gen-form.png")}
+                      className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
+                      alt="Screenshot of marilynswindows.com landing page"
+                    /> */}
                   <p className="card-text">
                     This application offloads manual admin tasks that were once
                     time-consuming, by setting up data pipelines with TAP’s
@@ -325,24 +351,40 @@ class PortfolioSlider extends Component {
                     >
                       PDFLib
                     </Link>
-                    {""}
-                    {/* <Link to={{pathname: 'https://www.papaparse.com'}} target={"_blank"}>  
-                                            PapaParse 
-                                            </Link>{' | '} */}
+                    {" | "}
+                    <Link
+                      to={{ pathname: "https://materializecss.com/" }}
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      Materialize
+                    </Link>
                   </p>
                 </div>
               </div>
 
               <div className="modal-footer">
                 <Link
-                  to={{ pathname: "https://github.com/ryanpilar/" }}
+                  to={{ pathname: "https://acmg-coursebooks.onrender.com/" }}
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button type="button" className="btn btn-info" disabled>
+                  <button type="button" className="btn btn-primary">
+                    Live Demo
+                  </button>
+                </Link>
+                <Link
+                  to={{
+                    pathname: "https://github.com/ryanpilar/ACMG-coursebooks",
+                  }}
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <button type="button" className="btn btn-info">
                     See GIT
                   </button>
                 </Link>
+
                 <button
                   type="button"
                   className="btn btn-secondary"
@@ -382,8 +424,7 @@ class PortfolioSlider extends Component {
               </div>
 
               <div className="card">
-
-              <div style={{margin: '5% 30% 0 30%'}}>
+                <div style={{ margin: "5% 30% 0 30%" }}>
                   <img
                     src={require("../../image/marilyns-windows-logo.png")}
                     className="card-img-top p-4"
@@ -409,11 +450,11 @@ class PortfolioSlider extends Component {
                     designs and trends.
                   </p>
                   {/* <div className="portfolio-modal-thumb "> */}
-                    <img
-                      src={require("../../image/marilyns-website-screenshot.png")}
-                      className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
-                      alt="Screenshot of marilynswindows.com landing page"
-                    />
+                  <img
+                    src={require("../../image/marilyns-website-screenshot.png")}
+                    className="portfolio-modal-thumb card-img-top mb-4 mt-2 "
+                    alt="Screenshot of marilynswindows.com landing page"
+                  />
                   {/* </div> */}
                   <p className="card-text">
                     A new modern website was built alongside web integrations to
@@ -427,9 +468,9 @@ class PortfolioSlider extends Component {
                   <p className="card-text">
                     Custom content throughout, including photography and SEO
                     driven stories keeping multiple customer journeys in mind.
-                    Marylyn’s Google Business was given a facelift, and
-                    Search Console & Analytics was setup to measure traffic and Google Ad
-                    conversions.
+                    Marylyn’s Google Business was given a facelift, and Search
+                    Console & Analytics was setup to measure traffic and Google
+                    Ad conversions.
                   </p>
 
                   <h6 className="card-title text-info special">

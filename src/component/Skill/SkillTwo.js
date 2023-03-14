@@ -54,7 +54,7 @@ class SkillTwo extends Component {
                                 
                                 <p>
                                   My design process is transparent, I communicate well and I am easy to work with. 
-                                  These are some of the areas I like creating:
+                                  These are some of the things that I like to do:
                                 </p>
 
                                 <div className="list-group">
@@ -62,25 +62,25 @@ class SkillTwo extends Component {
                                   <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Beautiful websites & web applications
+                                      Build beautiful websites & web applications
                                   </a>
                                   <a className="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Modernizing outdated websites
+                                      Modernize outdated websites
                                   </a>
 
                                   <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Automating businesses with web integrations
+                                      Automate businesses with web integrations
                                   </a>
                                   <a className="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Consulting on SEO, Customer Journey’s & Content Creation
+                                      Consult on SEO, customer journey’s & content creation
                                   </a>
 
                                   <a className="d-flex align-items-center list-group-item list-group-item-action">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
-                                      Building responsive products for phones, tablets and large displays
+                                      Build responsive products for phones, tablets and large displays
                                   </a>
                                 </div>
 
