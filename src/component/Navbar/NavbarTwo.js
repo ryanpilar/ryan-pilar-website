@@ -14,8 +14,7 @@ class NavbarTwo extends Component {
             <a className="navbar-brand logo_h" href="/">
               <img src={require("../../image/" + mainlogo)} alt="" width={60}/>
               <img src={require("../../image/" + stickylogo)} alt="" width={60}/>
-              {/* <img src={require("../../image/" + mainlogo)} alt="" />
-              <img src={require("../../image/" + stickylogo)} alt="" /> */}
+
             </a>
 
             <button

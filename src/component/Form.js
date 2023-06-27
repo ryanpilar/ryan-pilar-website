@@ -12,6 +12,7 @@ class Form extends React.Component {
         phone: "",
         email: "",
       },
+      isSubmitting: false, // Add a state variable for tracking the loading state
     };
   }
 
@@ -59,6 +60,9 @@ class Form extends React.Component {
     // } else {
     //   alert("form is invalid");
     // }
+
+    this.setState({ isSubmitting: true }); // Set isSubmitting to true when the form is submitted
+
     emailjs
       .sendForm(
         'service_7pq2c9r',           // emailJS service ID
@@ -76,11 +80,14 @@ class Form extends React.Component {
           console.log('e.target', e.target)
           alert("Something has gone wrong with your form submission. If this message persists, try emailing me directly at ryan_pilar@outlook.com.");
         }
-      );
+      )
+      .finally(() => {
+        this.setState({ isSubmitting: false }); // Reset isSubmitting to false after email is sent
+      });
   };
 
   render() {
-    const { errors } = this.state;
+    const { errors, isSubmitting } = this.state;
     return (
       <form onSubmit={this.submitHandler.bind(this)} className="form_class">
         <div className="row">
@@ -137,8 +144,16 @@ class Form extends React.Component {
           placeholder="Your Message ..."
           onChange={this.handleChange}
         ></textarea>
-        <button type="submit" className="btn send_btn theme_btn">
-          Send Message
+        <button type="submit" className="btn send_btn theme_btn" disabled={isSubmitting}>
+
+          
+
+          {isSubmitting ? (
+            "Sending ..." // Render a spinning icon while isSubmitting is true
+          ) : (
+            "Send Message"
+          )}
+
         </button>
       </form>
     );

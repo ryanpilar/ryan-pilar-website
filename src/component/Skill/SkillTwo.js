@@ -73,6 +73,7 @@ class SkillTwo extends Component {
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Automate businesses with web integrations
                                   </a>
+            
                                   <a className="d-flex align-items-center list-group-item list-group-item-action list-group-item-light">
                                     <div className='btn btn-outline-info p-2 ml-3 mr-4' />
                                       Consult on SEO, customer journey’s & content creation

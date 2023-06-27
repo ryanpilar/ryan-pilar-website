@@ -47,9 +47,9 @@ class ContactTwo extends Component {
                   <i className="flaticon-chat"></i>
                   <div className="media-body">
                     <h6>Contact Me</h6>
-                    <a href="mailto:john@example.com">
+                    <a href="mailto:ryan.pilarczyk@gmail.com">
                       <span className="contact-media-items">
-                        ryan_pilar@outlook.com
+                        ryan.pilarczyk@gmail.com
                       </span>
                       
                     </a>
