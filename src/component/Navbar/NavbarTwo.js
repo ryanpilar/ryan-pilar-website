@@ -11,9 +11,11 @@ class NavbarTwo extends Component {
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
           <div className={`container ${mContainer}`}>
             
-            <a className="navbar-brand logo_h" href="./Home-frelencer">
-              <img src={require("../../image/" + mainlogo)} alt="" />
-              <img src={require("../../image/" + stickylogo)} alt="" />
+            <a className="navbar-brand logo_h" href="/">
+              <img src={require("../../image/" + mainlogo)} alt="" width={60}/>
+              <img src={require("../../image/" + stickylogo)} alt="" width={60}/>
+              {/* <img src={require("../../image/" + mainlogo)} alt="" />
+              <img src={require("../../image/" + stickylogo)} alt="" /> */}
             </a>
 
             <button

@@ -11,7 +11,9 @@ import ryanData from './component/jhonData';
 
 export const Homefrelencer = () => (
   <div className="body_wrapper">
-    <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>  
+    {/* <NavbarTwo mClass="menu_two" mainlogo="logo-blue-large.png" stickylogo="logo-blue-large.png"/>   */}
+    <NavbarTwo mClass="menu_two" mainlogo="logo-blue-large-plain.png" stickylogo="logo-blue-large-plain.png"/>  
+
     <FBanner jhonData={ryanData}/>
     <ServiceTwo rowFlex="flex-row-reverse"/>
     <SkillTwo/>
