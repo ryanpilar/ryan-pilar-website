@@ -16,7 +16,7 @@ class ServiceTwo extends Component{
                             <div className="service_content">
                                 <SectionTitleTwo stitle="What I do ?" btitle="Solving problems is what i do"/>
                                 <p>
-                                    We live in such a modern era where all business’s now need tech. Do you need a website or a mobile app? Something custom or a dev? 
+                                    We live in such a modern era where all business’s now need tech. What is your B2B problem? Do you need a website or a mobile app? Something custom or a dev? 
                                 </p>
                                 <p>
                                     I offer modern solutions for growing your team and business. Tell me about your tech project, lets connect.
