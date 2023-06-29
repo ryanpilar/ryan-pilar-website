@@ -43,7 +43,7 @@ class frelencerBanner extends Component {
                   <h4>
                     <span>
 
-                      I am a freelance software developer that specializes in building helpful, 
+                      A web design studio that specializes in building helpful, 
                       modern websites and applications for small to medium sized businesses. 
 
                       <Fade top cascade>
